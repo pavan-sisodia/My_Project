@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="01_ng.css">
+    <title>Number Guessing Gaming</title>
+</head>
+<body>
+    <div id="warper">
+        <h2>Number Gusses Game</h2>
+        <p>Try and guiess a number between 1 to 100 </p>
+        <p>You have 10 attempt to guess the write number</p><br>
+        <form>
+            <label for="guessField" id="guess">Guess a Number</label>
+            <input type="text" id="guessField" class="guessField">
+            <input type="submit" id="subt" value="submit guess" class="guessSubmit">
+
+<div class="resultParas">
+    <p>Privious Gess: <span class="guesses">1</span></p>
+    <p>Guess Remaining: <span class="lastResult">10</span></p>
+    <p class="lowOrHi"></p>
+</div>
+        </form>
+    </div>
+    <script src="01_ng.js"></script>
+</body>
+</html>
